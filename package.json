@@ -1,9 +1,17 @@
 {
-  "name": "salgu-api-inferface",
+  "name": "salgu-api-interface",
   "version": "0.0.1",
   "description": "",
   "author": "",
   "private": true,
+  "exports": {
+    "./common": "./lib/common/src",
+    "./common/*": "./lib/common/src/* ",
+    "./interface": "./lib/interface/src",
+    "./interface/*": "./lib/interface/src/*",
+    "./*.ts": "./*.ts"
+  },
+  "main": "./index.js",
   "license": "UNLICENSED",
   "dependencies": {
     "axios": "^0.27.2",
