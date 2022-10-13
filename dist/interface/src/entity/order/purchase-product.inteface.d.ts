@@ -1,4 +1,4 @@
-import { OptionObj } from '@common';
+import { OptionObj } from 'packages/common/src';
 import { ITimestamp } from '../timestamp.interface';
 import { IDeliveryCompany } from './delivery-company.interface';
 import { PurchaseProductState } from './enum';

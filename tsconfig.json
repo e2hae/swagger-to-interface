@@ -18,10 +18,10 @@
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
     "paths": {
-      "@common": ["lib/common/src"],
-      "@common/*": ["lib/common/src/*"],
-      "@interface": ["lib/interface/src"],
-      "@interface/*": ["lib/interface/src/*"],
+      "@common": ["packages/common/src"],
+      "@common/*": ["packages/common/src/*"],
+      "@interface": ["packages/interface/src"],
+      "@interface/*": ["packages/interface/src/*"],
     }
   }
 }
