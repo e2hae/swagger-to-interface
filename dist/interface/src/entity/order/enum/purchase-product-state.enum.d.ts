@@ -1,0 +1,8 @@
+export declare enum PurchaseProductState {
+    BEFORE_ORDER = "\uC8FC\uBB38\uB300\uAE30",
+    ORDER_COMPLETE = "\uC8FC\uBB38\uC644\uB8CC",
+    PREPARE_PRODUCT = "\uC0C1\uD488\uC900\uBE44\uC911",
+    DELIVERY_PROGRESS = "\uBC30\uC1A1\uC911",
+    DELIVERY_COMPLETE = "\uBC30\uC1A1\uC644\uB8CC",
+    CANCEL = "\uC8FC\uBB38\uCDE8\uC18C"
+}
