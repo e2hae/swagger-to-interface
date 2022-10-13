@@ -4,13 +4,6 @@
   "description": "",
   "author": "",
   "private": true,
-  "exports": {
-    "./common": "./lib/common/src",
-    "./common/*": "./lib/common/src/* ",
-    "./interface": "./lib/interface/src",
-    "./interface/*": "./lib/interface/src/*",
-    "./*.ts": "./*.ts"
-  },
   "main": "./index.js",
   "license": "UNLICENSED",
   "scripts": {
